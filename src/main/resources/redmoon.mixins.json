@@ -1,12 +1,12 @@
 {
   "required": true,
-  "package": "com.example.examplemod.mixin",
+  "package": "tfar.redmoon.mixin",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "examplemod.refmap.json",
+  "refmap": "redmoon.refmap.json",
   "mixins": [
   ],
   "client":[
-    "ExampleMixin"
+    "EntityRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1

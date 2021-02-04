@@ -82,7 +82,7 @@ dependencies {
 }
 
 mixin {
-    add sourceSets.main, 'examplemod.refmap.json'
+    add sourceSets.main, 'redmoon.refmap.json'
 }
 
 processResources {

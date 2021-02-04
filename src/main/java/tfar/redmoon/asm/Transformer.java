@@ -1,4 +1,4 @@
-package com.example.examplemod.asm;
+package tfar.redmoon.asm;
 
 import net.minecraft.launchwrapper.LaunchClassLoader;
 import net.minecraftforge.common.ForgeVersion;
@@ -15,7 +15,7 @@ import java.util.Map;
 public class Transformer implements IFMLLoadingPlugin {
     public Transformer() {
         MixinBootstrap.init();
-        Mixins.addConfiguration("examplemod.mixins.json");
+        Mixins.addConfiguration("redmoon.mixins.json");
     }
 
     /**
